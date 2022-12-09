@@ -19,12 +19,11 @@ class Program
         integerA = Convert.ToInt32(Console.ReadLine());
         Console.Write("\nEnter integer B: ");
         integerBOV = integerB = Convert.ToInt32(Console.ReadLine());
-      
         while (counter < integerA)
         {
-        text = text + "\nYour number is: " + integerB;
-        counter++;
-        integerB = integerB + integerBOV;
+            text = text + "\nYour number is: " + integerB;
+            counter++;
+            integerB = integerB + integerBOV;
         }
         Console.Write(text);
         Console.Write("\nDone");
